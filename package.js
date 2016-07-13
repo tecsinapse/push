@@ -1,14 +1,14 @@
 Package.describe({
-  name: 'raix:push',
-  version: '3.0.3-rc.2',
-  summary: 'Isomorphic Push notifications for APN and GCM',
-  git: 'https://github.com/raix/push.git'
+  name: 'tecsinapse:push',//'raix:push',
+  version: '3.0.4',//'3.0.3-rc.2',
+  summary: 'Isomorphic Push notifications for APN and GCM fork of okgrow:push',
+  git: 'https://github.com/tecsinapse/push.git'
 });
 
 // Server-side push deps
 Npm.depends({
   'apn' : '1.6.2', // '1.7.4', // working: 1.6.2
-  'node-gcm' : '0.9.6', // '0.12.0' // working: 0.9.6
+  'node-gcm' : '0.14.3', // '0.12.0' // working: 0.9.6
 });
 
 Cordova.depends({
